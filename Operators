@@ -1,0 +1,120 @@
+//ARITHMETIC OPERATORS
+class Main {
+  public static void main(String[] args) {
+    
+    // declare variables
+    int a = 12, b = 5;
+
+    // addition operator
+    System.out.println("a + b = " + (a + b));
+
+    // subtraction operator
+    System.out.println("a - b = " + (a - b));
+
+    // multiplication operator
+    System.out.println("a * b = " + (a * b));
+
+    // division operator
+    System.out.println("a / b = " + (a / b));
+
+    // modulo operator
+    System.out.println("a % b = " + (a % b));
+  }
+}
+
+//COMPARISON OPERATORS
+
+public class ComparisonOperatorsExample {
+public static void main(String[] args) {
+int num1 = 10;
+int num2 = 20;
+boolean isEqual = (num1 == num2);
+System.out.println("num1 is equal to num2: " + isEqual);
+boolean isNotEqual = (num1 != num2);
+System.out.println("num1 is not equal to num2: " + isNotEqual);
+boolean isGreaterThan = (num1 > num2);
+System.out.println("num1 is greater than num2: " + isGreaterThan);
+boolean isLessThan = (num1 < num2);
+System.out.println("num1 is less than num2: " + isLessThan);
+boolean isGreaterThanOrEqual = (num1 >= num2);
+System.out.println("num1 is greater than or equal to num2: " + isGreaterThanOrEqual);
+boolean isLessThanOrEqual = (num1 <= num2);
+System.out.println("num1 is less than or equal to num2: " + isLessThanOrEqual);
+}
+}
+
+//ASSIGNMENT OPERATORS
+
+class Main
+{
+  public static void main(String[] args)
+  {
+   int a = 5;
+   int var;
+   var = a;
+   System.out.println("var using =: " + var);
+   var += a;
+   System.out.println("var using +=: " + var);
+   var *= a;
+   System.out.println("var using *=: " + var);
+  }
+ }
+
+//LOGICAL OPERATORS
+
+class Main
+ {
+  public static void main(String[] args)
+  {
+   System.out.println((6 > 3) && (8 > 6)); // true
+   System.out.println((6 > 3) && (8 < 6)); // false
+   System.out.println((6 < 3) || (8 > 6)); // true
+   System.out.println((6 > 3) || (8 < 6)); // true
+   System.out.println((6 < 3) || (8 < 6)); // false
+   System.out.println(!(6 == 3)); // true
+   System.out.println(!(6 > 3)); // false
+  }
+ }
+
+//UNARY OPERATORS
+
+class Main
+{
+  public static void main(String[] args)
+  {
+   int a = 13, b = 13;
+   int result1, result2;
+   System.out.println("Value of a: " + a);
+   result1 = ++a;
+   System.out.println("After increment: " + result1);
+   System.out.println("Value of b: " + b);
+   result2 = --b;
+   System.out.println("After decrement: " + result2);
+  }
+ }
+
+// BITWISE OPERATORS
+
+class Main
+ {
+  public static void main(String[] args)
+  {
+   String str = "ScholarHat";
+   boolean result;
+   result = str instanceof String;
+   System.out.println("Is str an object of String? " + result);
+  }
+ }
+
+//TERNARY OPERATORS
+
+public class TernaryOperatorExample {
+public static void main(String[] args) {
+int num1 = 10;
+int num2 = 20;
+int max = (num1 > num2) ? num1 : num2;
+System.out.println("The maximum number is: " + max);
+}
+}
+
+
